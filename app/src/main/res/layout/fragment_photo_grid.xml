@@ -1,0 +1,31 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<FrameLayout android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.akshay.com.flickrapp.fragments.PhotoGridFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipe_refresh_layout">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_photo_grid_view">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/btn_load_more"
+        android:text="@string/label_load_more"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+
+</FrameLayout>
+</layout>

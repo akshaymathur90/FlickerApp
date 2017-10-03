@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FlickrApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_load_more">Load More</string>
+
+    <string name="snackbar_text_internet_lost">Disconnected from Internet</string>
+    <string name="snackbar_text_internet_available">Connected to Internet</string>
+</resources>
