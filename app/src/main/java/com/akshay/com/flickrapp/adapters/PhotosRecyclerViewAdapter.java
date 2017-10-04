@@ -70,7 +70,7 @@ public class PhotosRecyclerViewAdapter extends RecyclerView.Adapter<PhotosRecycl
             String url = "https://farm%s.staticflickr.com/%s/%s_%s_n.jpg";
             final String photoUrl = String.format(url,photo.getFarm(),
                     photo.getServer(),photo.getId(),photo.getSecret());
-            //Log.d(TAG, "Fetching url " + photoUrl);
+            Log.d(TAG, "Fetching url " + photoUrl);
             mBinding.progressBar.setVisibility(View.VISIBLE);
             Picasso.with(mContext)
                     .load(photoUrl)

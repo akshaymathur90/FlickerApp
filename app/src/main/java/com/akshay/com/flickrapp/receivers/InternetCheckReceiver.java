@@ -38,28 +38,6 @@ public class InternetCheckReceiver extends BroadcastReceiver{
         boolean isConnected = AppUtils.isInternetAvailable(context);
         mListener.onNetworkChange(isConnected);
 
-        /*if(isConnected){
-            if(!internet){
-                Log.d(TAG,"Connected to Internet");
-                //Toast.makeText(context,"Connected to Internet",Toast.LENGTH_LONG).show();
-                Snackbar.make(mView,context.getString(R.string.snackbar_text_internet_available),
-                        Snackbar.LENGTH_LONG).show();
-                internet = true;
-            }
-
-        }
-        else {
-            internet = false;
-            //Toast.makeText(context,"Disconnect from Internet",Toast.LENGTH_LONG).show();
-            Snackbar.make(mView,context.getString(R.string.snackbar_text_internet_lost),
-                    Snackbar.LENGTH_LONG).show();
-            Log.d(TAG,"Disconnect from Internet");
-        }*/
-
-
     }
 
-    public boolean isInternetAvailable(){
-        return internet;
-    }
 }

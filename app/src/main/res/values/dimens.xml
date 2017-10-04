@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="iv_margin">5dp</dimen>
+    <dimen name="iv_margin">2dp</dimen>
+    <dimen name="iv_right_margin">8dp</dimen>
     <dimen name="iv_padding">4dp</dimen>
 </resources>

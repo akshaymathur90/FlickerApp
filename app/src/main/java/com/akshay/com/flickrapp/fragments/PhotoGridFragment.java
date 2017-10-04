@@ -88,6 +88,13 @@ public class PhotoGridFragment extends VisibleFragment {
                 }
 
             }
+
+            @Override
+            public void hideButton() {
+                if(mFragmentPhotoGridBinding.btnLoadMore.getVisibility() == View.VISIBLE){
+                    mFragmentPhotoGridBinding.btnLoadMore.setVisibility(View.GONE);
+                }
+            }
         };
         mFragmentPhotoGridBinding.rvPhotoGridView.addOnScrollListener(mScrollListener);
         mFragmentPhotoGridBinding.swipeRefreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright,
