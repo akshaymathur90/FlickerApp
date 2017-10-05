@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/FlickerTheme">
-        <activity android:name="com.akshay.com.flickrapp.activitites.PhotoGridActivity">
+        <activity android:name="com.akshay.com.flickrapp.activitites.PhotoGridActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

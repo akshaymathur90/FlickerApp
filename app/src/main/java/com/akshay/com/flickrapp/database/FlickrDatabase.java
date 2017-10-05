@@ -9,7 +9,7 @@ import com.raizlabs.android.dbflow.annotation.Database;
 @Database(name = FlickrDatabase.NAME, version = FlickrDatabase.VERSION)
 public class FlickrDatabase {
 
-    public static final String NAME = "TweetsDatabaseUpdatedVersion";
+    public static final String NAME = "FlickrDatabaseUpdatedVersion";
 
     public static final int VERSION = 1;
 }
